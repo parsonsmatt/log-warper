@@ -3,6 +3,8 @@ resolver: lts-10.8
 extra-deps:
 - o-clock-0.1.1
 - universum-1.1.0
+- lifted-async-0.10.0.1
+- async-2.2.1
 
 nix:
   packages: [git, openssh, gmp, binutils]
